@@ -1,11 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package expnode;
 
 /**
- *
+ * The TimesNode calculates its value as the product of its left and right
+ * leaves.
+ * 
  * @author Howie
  */
 public class TimesNode extends ExpNode{

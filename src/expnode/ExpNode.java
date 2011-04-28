@@ -1,11 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package expnode;
 
 /**
- *
+ * The ExpNode is the general super class for all nodes in an expression tree.
+ * 
  * @author Howie
  */
 public abstract class ExpNode {

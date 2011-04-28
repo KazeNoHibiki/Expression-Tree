@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package expnode;
 
 /**
@@ -14,9 +10,14 @@ public class ExpNodeMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ConstantNode two = new ConstantNode(2);
-        ConstantNode three = new ConstantNode(3);
-        ExpNode sum = new MinusNode(two, three);
-        System.out.println(sum.toString() + " = " + sum.calculateValue().toString());
+        ExpNode two = new ConstantNode(2);
+        ExpNode four = new ConstantNode(4);
+        ExpNode divide = new DivideNode(two, four);
+        ExpNode three = new ConstantNode(3);
+        ExpNode sum = new PlusNode(divide, three);
+        ExpNode eight = new ConstantNode(8);
+        ExpNode sum2 = new MinusNode(eight, sum);
+        ExpNode total = new TimesNode(sum2, two);
+        System.out.println(total.toString() + " = " + total.calculateValue().toString());
     }
 }
