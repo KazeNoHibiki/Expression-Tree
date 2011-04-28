@@ -1,11 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package expnode;
 
 /**
- *
+ * The ConstantNode represents a single number value inside the tree.
+ * Currently, it does nothing with its left and right leaves. Perhaps in the 
+ * future, giving nodes that do nothing with their leaves will produce an error
+ * Maybe. Perhaps.
+ * 
  * @author Howie
  */
 public class ConstantNode extends ExpNode{

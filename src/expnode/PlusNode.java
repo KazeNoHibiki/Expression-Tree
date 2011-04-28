@@ -1,10 +1,7 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package expnode;
 
 /**
+ * The PlusNode calculates its value as the sum of its left and right leaves.
  *
  * @author Howie
  */
